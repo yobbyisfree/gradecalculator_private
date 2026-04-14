@@ -32,9 +32,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
-          cp index-inline-tools.html _site/index-inline-tools.html
           cp style.css _site/style.css
-          cp style-inline-tools.css _site/style-inline-tools.css
           cp script.js _site/script.js
           cp README.md _site/README.md
           touch _site/.nojekyll
